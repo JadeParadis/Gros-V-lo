@@ -31,12 +31,13 @@ body {
 
 a {
    text-decoration: none;
-   
+
 }
 
 .bouton {
    line-height: 100%;
 }
+
 /*======================================================================================================================================================
 
                                                     MISE EN PAGE 
@@ -61,11 +62,11 @@ header ul {
    list-style: none;
 }
 
-header a {
+.menu {
    color: #000000;
 }
 
-header a:hover {
+.menu:hover {
    color: #D300B7;
 }
 
@@ -75,11 +76,18 @@ header h2 {
 
 }
 
-header h3 {
-   border: 4px solid #D300B7; 
+.bouton-pilule {
+   border: 4px solid #D300B7;
    border-radius: 50vh;
    padding: 10px 30px;
+   color: #D300B7;
 }
+
+.bouton-pilule:hover {
+   background-color: #D300B7;
+   color: #FFFFFF;
+}
+
 /*======================================================================================================================================================
 
                                                     ÉLÉMENTS/FONTS
