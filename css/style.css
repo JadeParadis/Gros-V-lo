@@ -88,6 +88,16 @@ header h2 {
    color: #FFFFFF;
 }
 
+/*------SECTION HERO------*/
+
+.hero {
+   background: url('../images/hero.png') no-repeat bottom/cover;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 671px;
+}
+
 /*======================================================================================================================================================
 
                                                     ÉLÉMENTS/FONTS
