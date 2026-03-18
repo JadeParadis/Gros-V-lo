@@ -96,7 +96,7 @@ header h2 {
 
 .hero {
    background: url('../images/hero.png') no-repeat bottom/cover;
-   height: 650px;
+   min-height: 650px;
    align-items: center;
    position: static;
 }
@@ -150,6 +150,7 @@ header h2 {
    margin-top: auto;
 }
 
+.
 /*======================================================================================================================================================
 
                                                     ÉLÉMENTS/FONTS
