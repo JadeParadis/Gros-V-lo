@@ -44,7 +44,10 @@ a {
  =====================================================================================================================================================*/
 header {
    background-color: #FFFFFF;
-   padding: 24px 0px 24px 0;
+   padding: 21px 0px 21px 0;
+   position: sticky;
+   top: 0;
+   z-index: 999;
 }
 
 header .wrapper {
@@ -73,6 +76,7 @@ header ul {
 header h2 {
    font: 900 1.75rem "Raleway", sans-serif;
    text-transform: uppercase;
+   margin: 0;
 
 }
 
@@ -92,26 +96,60 @@ header h2 {
 
 .hero {
    background: url('../images/hero.png') no-repeat bottom/cover;
-   width: 100%;
-   height: 671px;
+   height: 650px;
+   align-items: center;
+   position: static;
 }
 
-.content {
+.hero .wrapper {
    text-align: center;
-   background-color: rgba(0, 0, 0, .8);
-   padding: 40px 107px 40px 40px;
+   background-color: rgba(0, 0, 0, .80);
+   padding: 40px;
    border-radius: 20px;
    color: #FFFFFF;
+   gap: 30px;
+   position: relative;
+   top: 111.5px;
+   left: 315px;
+   align-items: center;
+   justify-content: center;
+   max-width: 550px;
+   max-height: 427px;
 }
 
 .content h1 {
    color: #D300B7;
    font: 700 4rem "Raleway", sans-serif;
-   text-transform: uppercase; 
-   display: flex;
-   align-items: center;
-   justify-content: flex-end;
+   text-transform: uppercase;
+   margin: 0;
+   padding: 0 0 30px 0;
+   text-align: start;
 }
+
+.content p {
+   font: 24px/160% "Roboto", sans-serif;
+   margin: 0;
+   text-align: start;
+}
+
+.content .bouton {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding-top: 30px;
+
+}
+
+.content a {
+   color: #D300B7;
+   text-transform: uppercase;
+   font: 700 18px "Raleway", sans-serif;
+   border: 5px solid #D300B7;
+   border-radius: 50vh;
+   padding: 10px 30px;
+   margin-top: auto;
+}
+
 /*======================================================================================================================================================
 
                                                     ÉLÉMENTS/FONTS
