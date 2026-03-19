@@ -43,7 +43,7 @@ a {
                                                     MISE EN PAGE 
  =====================================================================================================================================================*/
 
- /*------HEADER------*/
+/*------HEADER------*/
 
 header {
    background-color: #FFFFFF;
@@ -131,7 +131,7 @@ header h2 {
 .content a {
    color: #D300B7;
    text-transform: uppercase;
-   font: 700 18px "Raleway", sans-serif;
+   font: 700 1.125rem "Raleway", sans-serif;
    border: 5px solid #D300B7;
    border-radius: 50vh;
    padding: 10px 30px;
@@ -148,10 +148,14 @@ header h2 {
 
 .intro {
    display: flex;
+   flex-direction: column;
    justify-content: center;
    align-items: center;
    text-align: center;
+   padding: 20px 185px 70px 185px;
+   
 }
+
 /*======================================================================================================================================================
 
                                                     ÉLÉMENTS/FONTS
@@ -169,11 +173,26 @@ header h2 {
 }
 
 .content p {
-   font: 24px/160% "Roboto", sans-serif;
+   font: 1.5rem/160% "Roboto", sans-serif;
    margin: 0;
    text-align: start;
 }
 
+/*------SECTION CONTENTBOX------*/
+.intro h2 {
+   font: 700 3rem "Raleway", sans-serif;
+   text-transform: uppercase;
+   color: #FFFFFF;
+   margin: 0;
+   padding-bottom: 20px;
+}
+
+.intro p {
+   font: 400 1.125rem/160% "Raleway", sans-serif;
+   color: #FFFFFF;
+   margin: 0;
+  
+}
 /*======================================================================================================================================================
 
                                                         COMPONENENTS
