@@ -142,6 +142,7 @@ header h2 {
    background-color: #D300B7;
    color: #FFFFFF;
 }
+
 /*------SECTION CONTENTBOX------*/
 
 .contentbox {
@@ -180,6 +181,8 @@ header h2 {
    padding: 20px 20px 30px 20px;
 
 }
+
+/*---FOOTER---*/
 
 /*======================================================================================================================================================
 
@@ -237,8 +240,23 @@ header h2 {
 
 .options h4 {
    text-align: center;
-   padding: 
+   margin: auto 83px 50px 83px;
 }
+
+.options a {
+   color: #D300B7;
+   border: solid #D300B7 4px;
+   border-radius: 50vh;
+   padding: 10px 30px 10px 30px;
+   margin-bottom: 40px;
+}
+
+.options a:hover {
+   background-color: #D300B7;
+   color: #FFFFFF;
+}
+/*---FOOTER---*/ 
+
 /*======================================================================================================================================================
 
                                                         COMPONENENTS
