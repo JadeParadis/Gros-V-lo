@@ -42,6 +42,9 @@ a {
 
                                                     MISE EN PAGE 
  =====================================================================================================================================================*/
+
+ /*------HEADER------*/
+
 header {
    background-color: #FFFFFF;
    padding: 21px 0px 21px 0;
@@ -117,21 +120,6 @@ header h2 {
    max-height: 427px;
 }
 
-.content h1 {
-   color: #D300B7;
-   font: 700 4rem "Raleway", sans-serif;
-   text-transform: uppercase;
-   margin: 0;
-   padding: 0 0 30px 0;
-   text-align: start;
-}
-
-.content p {
-   font: 24px/160% "Roboto", sans-serif;
-   margin: 0;
-   text-align: start;
-}
-
 .content .bouton {
    display: flex;
    justify-content: center;
@@ -150,14 +138,41 @@ header h2 {
    margin-top: auto;
 }
 
-.
+/*------SECTION CONTENTBOX------*/
+
+.contentbox {
+   background-color: #222222;
+   /*max-width*/
+   padding: 100px 0px 100px 0px;
+}
+
+.intro {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+}
 /*======================================================================================================================================================
 
                                                     ÉLÉMENTS/FONTS
  =====================================================================================================================================================*/
 
+/*------SECTION HERO------*/
 
+.content h1 {
+   color: #D300B7;
+   font: 700 4rem "Raleway", sans-serif;
+   text-transform: uppercase;
+   margin: 0;
+   padding: 0 0 30px 0;
+   text-align: start;
+}
 
+.content p {
+   font: 24px/160% "Roboto", sans-serif;
+   margin: 0;
+   text-align: start;
+}
 
 /*======================================================================================================================================================
 
