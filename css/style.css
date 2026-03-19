@@ -125,7 +125,7 @@ header h2 {
    justify-content: center;
    align-items: center;
    padding-top: 30px;
-
+   background-color: transparent;
 }
 
 .content a {
@@ -138,12 +138,17 @@ header h2 {
    margin-top: auto;
 }
 
+.content a:hover {
+   background-color: #D300B7;
+   color: #FFFFFF;
+}
 /*------SECTION CONTENTBOX------*/
 
 .contentbox {
    background-color: #222222;
    /*max-width*/
    padding: 100px 0px 100px 0px;
+
 }
 
 .intro {
@@ -153,7 +158,27 @@ header h2 {
    align-items: center;
    text-align: center;
    padding: 20px 185px 70px 185px;
-   
+
+}
+
+.box {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   align-content: center;
+   gap: 30px;
+}
+
+.options {
+   background: #FFFFFF;
+   display: flex;
+   flex-direction: column;
+   width: 370px;
+   height: 569px;
+}
+
+.options img {
+   padding: 20px 20px 30px 20px;
+
 }
 
 /*======================================================================================================================================================
@@ -191,7 +216,28 @@ header h2 {
    font: 400 1.125rem/160% "Raleway", sans-serif;
    color: #FFFFFF;
    margin: 0;
-  
+
+}
+
+.options h3 {
+   margin: 0;
+   text-align: center;
+   font: 700 2rem/110% "Raleway", sans-serif;
+   text-transform: uppercase;
+   color: #D300B7;
+   padding-bottom: 30px;
+}
+
+.options p {
+   margin: 0;
+   text-align: center;
+   padding: 0px 20px 0px 20px;
+   font: 400 1.125rem/160% "Roboto", sans-serif;
+}
+
+.options h4 {
+   text-align: center;
+   padding: 
 }
 /*======================================================================================================================================================
 
