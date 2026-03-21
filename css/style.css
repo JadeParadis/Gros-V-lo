@@ -175,6 +175,7 @@ header h2 {
    flex-direction: column;
    width: 370px;
    height: 569px;
+   position: relative;
 }
 
 .options img {
@@ -182,6 +183,12 @@ header h2 {
 
 }
 
+.déco .triangle {
+  position: absolute;
+  top: -60px;
+  right: -70px;
+
+}
 /*---FOOTER---*/
 
 /*======================================================================================================================================================
